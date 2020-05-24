@@ -1,0 +1,197 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){
+	.bn{	
+		margin-top: 60px;
+		padding-bottom: 50%;		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 16px;		
+		position: absolute;		
+		bottom: 50%;						
+	}
+	.bn_text .textlogo,
+	.bn_text .textshose,
+	.bn_text:before,
+	.bn_text h1:before{	
+		display: none;
+	}
+	.arrival_inside{
+		width: 100%;
+		padding-top: 50px;
+	}
+	.inside_title h1:after{
+		display: none;
+	}
+	.inside_photo{
+		width: 100%;
+		margin: auto;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.photo3{
+		display: block;
+		height: initial;
+	}
+	.photo1,.photo2{
+		display: none;
+	}
+	.inside_contents{
+		width: 100%;
+		text-align: center;		
+	}
+	.left,.right{		
+		width: 100%;		
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){	
+	nav ul .nav_4 a{
+		color: #F04D50;
+		font-weight: 700;
+	}	
+	.bn{
+		padding-bottom: 55%;
+		margin-top: 100px;
+	}
+	.bn_text{
+		width: 42%;
+		height: 300px;		
+		background-color: #fff;		
+		position: absolute;
+		top: 25%;
+		left: 45%;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		overflow: hidden;
+		box-shadow: 30px -30px 0px #102437;
+	}
+	.bn_text .textshose{	
+		display: none;
+	}
+	.bn_text h1{
+		width: 80%;			
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 45%;
+		bottom: 0;
+		margin: auto;
+		font-weight: 500;
+		padding: 0 10px; 		
+	}
+	.arrival_inside{
+		width: 100%;
+		padding-top: 70px;
+	}
+	.inside_title h1:after{
+		display: block;
+	}
+	.inside_photo{
+		width: 100%;
+		margin: auto;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.photo2{
+		display: block;
+		height: initial;
+	}
+	.photo1,.photo3{
+		display: none;
+	}
+	.inside_contents{		
+		text-align: center;
+		width: 100%;
+	}
+	.left,.right{
+		width: 40%;
+		padding: 20px;
+		box-sizing: border-box;
+		text-align: left;
+		margin: 0 10px;
+	}
+}
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){	
+	.bn{
+		padding-bottom: 40%;
+		margin-top: 100px; 		
+	}
+	.bn_text{		
+		top: 30%;
+		left: 40%;		
+		box-shadow: 30px 30px 0px #102437;
+	}
+	.bn_text .textshose{
+		display: block;	
+		max-width: 450px;		
+		position: absolute;	
+		right: -15%;
+		bottom: -14%;
+	}	
+	.bn_text h1{			
+		font-size: 22px;				
+	}
+	.inside_photo{
+		width: 1200px;
+		margin: auto;
+		padding: 0px;
+	}
+	.arrival_inside{	
+		padding-top: 100px;
+	}
+	.photo1{
+		display: block;
+		margin: auto;
+	}
+	.photo2,.photo3{
+		display: none;
+	}
+	.left,.right{		
+		padding: 20px;
+		width: 500px;
+		box-sizing: border-box;
+		margin: 0px;
+		padding-bottom: 40px;
+	}
+	.left{		
+		float: left;
+		margin-left: 150px;		
+	}
+	.right{		
+		float: left;		
+	}
+	.inside_contents{
+		width: 1200px;
+		text-align: center;
+	}
+	.inside_contents:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.contents_btn{
+		clear: both;				
+	}
+
+}

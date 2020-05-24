@@ -1,0 +1,263 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){	
+	.bn{	
+		margin-top: 60px;
+		padding-bottom: 50%;		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 16px;		
+		position: absolute;		
+		bottom: 50%;						
+	}	
+	.bn_text .textlogo,
+	.bn_text .textshose,
+	.bn_text:before{	
+		display: none;
+	}
+	.aboutus{
+		width: 100%;
+		padding-top: 50px;		
+	}
+	.about_title h1:after{		
+		display: none;		
+	}
+	.about_contents{
+		width: 100%;		
+	}	
+	.about_contents:before{	
+		display: none;
+	}	
+	.about_1990,
+	.about_1995,
+	.about_2003,
+	.about_2010,
+	.about_2018{		
+		box-sizing: border-box;
+		padding: 30px 20px;		
+	}
+	.about_photo{
+		display: none;				
+	}
+	.txt{
+		padding-bottom: 20px;
+		border-bottom: dashed 2px #102437;
+	}
+	.about_2018 .txt{
+		border-bottom: initial;
+	}
+	.year{
+		font-size: 30px;
+		width: 100%;		
+		margin-bottom: 15px;
+	}
+	.slogo{
+		display: none;
+	}		
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	nav ul .nav_4 a{
+		color: #F04D50;
+		font-weight: 700;
+	}	
+	.bn{
+		padding-bottom: 55%;
+		margin-top: 100px; 
+	}
+	.bn_text{			
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		overflow: hidden;		
+	}
+	.bn_text .textshose,.bn_text:before{	
+		display: none;
+	}
+	.bn_text h1{
+		width: 100%;			
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 50%;
+		bottom: 0;
+		margin: auto;
+		font-weight: 500;
+		color: #fff;		
+	}
+	.aboutus{
+		padding-top: 70px;
+	}
+	.about_title h1:after{
+		display: block;
+	}	
+	.about_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 56%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.about_contents:before{	
+		display: none;
+	}
+	.about_1990,
+	.about_1995,
+	.about_2003,
+	.about_2010,
+	.about_2018{		
+		box-sizing: border-box;
+		padding: 30px 20px;			
+	}
+	.about_photo img{
+		max-width: 30%;
+		float: right;
+	}
+	.year{
+		font-size: 35px;
+		width: 100%;		
+		margin-bottom: 15px;
+	}
+	.year:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.slogo{
+		display: none;
+	}		
+}
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){
+	.bn{
+		padding-bottom: 40%;
+		margin-top: 100px; 		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 22px;		
+		position: absolute;						
+	}
+	.bn_text .textlogo,.bn_text .textshose{	
+		display: none;
+	}
+	.bn_text:before{
+		display: none;
+	}
+	.aboutus{
+		padding-top: 100px;	
+	}
+	.about_title h1:after{
+		display: block;
+	}
+	.about_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 54%;
+	    animation: rotateball 1s infinite alternate;
+	}	
+	.about_contents{
+		width: 1200px;
+		margin: auto;	
+	}
+	.about_contents:before{
+		display: block;
+	}	
+	.about_1990,
+	.about_1995,
+	.about_2003,
+	.about_2010,
+	.about_2018{		
+		padding: 0px 0px;
+	}
+	.about_1990,.about_2003,.about_2018{
+		width: 500px;
+		position: absolute;
+		right: 45px;	
+	}
+	.about_1995,.about_2010{
+		width: 500px;
+		position: absolute;
+		left: 55px;	
+	}	
+	.about_1990{
+		top: 50px;
+	}
+	.about_1995{
+		top: 300px;
+	}
+	.about_2003{
+		top: 500px;
+	}
+	.about_2010{
+		top: 700px;
+	}
+	.about_2018{
+		top: 950px;
+	}
+	.about_photo{
+		margin-bottom: 0px;		
+	}	
+	.about_photo img{
+		max-width: 60%;
+		float: right;
+	}
+	.about_1995 img,.about_2010 img{
+		float: left;
+	}	
+	.year{	
+		font-size: 30px;
+	}
+	.year:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.about_1995 .year,.about_2010 .year{
+		text-align: right;
+	}
+	.slogo{
+		display: block;
+	}
+	.about_1990 .slogo,.about_2003 .slogo,.about_2018 .slogo{
+		position: absolute;
+		top: 0px;
+		left: -85px;
+	}
+	.about_1995 .slogo,.about_2010 .slogo{
+		position: absolute;
+		top: 0px;
+		left: 515px;
+	}
+}

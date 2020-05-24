@@ -1,0 +1,263 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){
+	.bn{	
+		margin-top: 60px;
+		padding-bottom: 50%;		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 16px;		
+		position: absolute;		
+		bottom: 50%;						
+	}
+	.bn_text .textlogo,
+	.bn_text .textshose,
+	.bn_text:before,
+	.bn_text h1:before{	
+		display: none;
+	}
+	.new_arrival{
+		width: 100%;			
+		padding-top: 20px;
+	}
+	.contents_box{
+		width: 50%;
+		margin: 15px 0;			
+	}
+	.contents_box:before{		
+		width: 50px;	
+		height: 60px;		
+		position: absolute;
+		top: -6px;	
+		left: 15px;	
+	}
+	.contents_box:after{		
+		border-top: 15px solid #E3E3E3;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		position: absolute;
+		top: 54px;	
+		left: 15px;
+	}
+	.contents_date{		
+		position: absolute;
+		top: 16px;	
+		left: 25px;
+		font-size: 25px;
+	}
+	.contents_date:before{
+		content:'';
+		position: absolute;
+	    top: -22px;
+	    right: -19px;
+	    border-top: solid 6px transparent;
+	    border-left: solid 10px #ccc;
+	}
+	.contents_date:after{
+		content:'';
+		position: absolute;
+	    top: -22px;
+	    left: -19px;
+	    border-top: solid 6px transparent;
+	    border-right: solid 10px #ccc;
+	}
+	.contents_txt{
+		position: absolute;
+		left: 100%;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-top: dashed 1px #888;
+		border-bottom: dashed 1px #888;
+		overflow: hidden;
+	}
+	.contents_txt h3{		
+		padding: 8px 5px;
+	}
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	nav ul .nav_2 a{
+		color: #F04D50;
+		font-weight: 700;
+	}
+	.bn{
+		padding-bottom: 55%;
+		margin-top: 100px; 
+	}
+	.bn_text{
+		width: 42%;
+		height: 300px;		
+		background-color: #fff;		
+		position: absolute;
+		top: 0;
+		left: 45%;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		overflow: hidden;
+		box-shadow: 30px -30px 0px #102437;
+	}
+	.bn_text .textshose{	
+		display: none;
+	}
+	.bn_text h1{
+		width: 100%;			
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		font-weight: 500;
+		padding: 0 10px; 
+		color: #102437;	
+		line-height: 300px;	
+	}	
+	.new_arrival{
+		width: 100%;			
+		padding-top: 60px;
+	}
+	.de_contents{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.contents_box{
+		width: 30%;
+		margin: 10px;		
+	}
+	.contents_box:before{		
+		width: 60px;	
+		height: 80px;		
+		position: absolute;
+		top: -6px;	
+		left: 30px;	
+	}
+	.contents_box:after{			
+		border-top: 20px solid #E3E3E3;
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		position: absolute;
+		top: 74px;	
+		left: 30px;
+	}
+	.contents_date{		
+		position: absolute;
+		top: 25px;	
+		left: 43px;
+		font-size: 30px;
+	}
+	.contents_date:before{
+		content:'';
+		position: absolute;
+	    top: -32px;
+	    right: -21px;
+	    border-top: solid 6px transparent;
+	    border-left: solid 10px #ccc;
+	}
+	.contents_date:after{
+		content:'';
+		position: absolute;
+	    top: -32px;
+	    left: -22px;
+	    border-top: solid 6px transparent;
+	    border-right: solid 10px #ccc;
+	}
+	.contents_txt h3{		
+		border-top: dashed 1px #888;		
+		padding: 20px 15px;
+	}
+	.box1{
+		height: 620px;	
+	}
+	.box2{
+		height: 550px;
+	}
+	.box3{
+		height: 520px;
+	}
+	.box5{	
+		margin-top: -60px;
+		height: 550px;
+	}
+	.box6{
+		margin-top: -90px;
+		height: 620px;
+	}
+	.box8{	
+		margin-top: -30px;
+		height: 550px;
+	}
+	.box9{	
+		margin-top: 8px;
+		height: 530px;
+	}
+}
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){
+	.bn{
+		padding-bottom: 40%;
+		margin-top: 100px; 		
+	}
+	.bn_text{		
+		top: 30%;
+		left: 40%;		
+		box-shadow: 30px 30px 0px #102437;
+	}
+	.bn_text .textshose{
+		display: block;	
+		max-width: 450px;		
+		position: absolute;	
+		right: -13%;
+		bottom: -14%;
+	}	
+	.bn_text h1{			
+		font-size: 22px;				
+	}
+	.new_arrival{
+		width: 1200px;
+	}
+	.contents_box{
+		width: 30%;			
+	}
+	.box1{
+		height: 620px;	
+	}
+	.box2{
+		height: 550px;
+	}
+	.box3{
+		height: 520px;
+	}
+	.box5{	
+		margin-top: -60px;
+		height: 550px;
+	}
+	.box6{
+		margin-top: -90px;
+		height: 620px;
+	}
+	.box8{	
+		margin-top: -90px;
+		height: 550px;
+	}
+	.box9{	
+		margin-top: -50px;
+		height: 530px;
+	}
+}

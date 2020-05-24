@@ -1,0 +1,45 @@
+*{
+	/*outline: solid 1px #f00;*/
+}
+body{
+	font-family: 微軟正黑體, roboto, arial, sans-serif;	
+}
+header{
+	width: 100%;	
+	box-shadow:1px 1px 1px rgba(34, 23, 20, .28);
+	text-align: center;
+	z-index: 50;
+	position: fixed;
+	top: 0;
+	background-color: rgba(255,255,255,.9);
+}
+.nav{
+	max-width: 1200px;
+	height: 100px;	
+	position: relative;	
+	margin: auto;
+}
+.biglogo{	
+	position: absolute;	
+}
+.biglogo img{
+	width: 100%;	
+}
+.smalllogo{
+	position: relative;					
+	width: 70px;
+}
+nav ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul li a{
+	display: inline-block;
+	text-decoration: none; 
+	font-size: 18px;	
+	font-weight: 500;	
+}
+input{
+	display: none;
+}
+

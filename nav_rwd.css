@@ -1,0 +1,268 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){	
+	.biglogo{
+		display: none;
+	}
+	.smalllogo{
+		top: 6px;
+	}
+	.nav{
+		height: 60px;
+		width: 100%;
+	}
+	nav ul li{
+		display: block;
+		margin-left: 50%;		
+	}
+	.nav_3 > ul > li,
+	.nav_4 > ul > li{
+		width: 100%;
+		margin-left: 0%;
+	}
+	nav > ul{		
+		width: 200%;
+    	height: 100%;
+		padding: 70px 0; 		
+		position: fixed;
+		overflow : auto;
+		top: 0px;		
+		right: 0px;		
+		transform: scale(0);
+		transform-origin: 100% 0;
+	}
+	nav ul li a{
+		width: 100%;
+		color: #fff;
+		line-height: 70px;			
+	}
+	nav a{
+		vertical-align: middle;
+		font-size: 0;		
+	}
+	.nav_3 a,.nav_4 a{
+		cursor: pointer;
+		position: relative;
+	}
+	.nav_3 img,.nav_4 img{
+		width: 15px;
+		position: absolute;
+    	top: 50%;
+     	transform: translate(50%,-50%); 
+    	animation: dropdown 1s linear infinite alternate;
+	}
+	.nav_3 .up,.nav_4 .up{
+		display: none;
+	}
+	@keyframes dropdown{
+		0%{top: 52%;}
+	  100%{top: 48%;}
+	}
+	.nav_3 ul,.nav_4 ul{
+		display: none;
+		transition: .5s;
+		width: 100%;		
+	}	
+	#nav_3_control:checked + label + ul,
+	#nav_4_control:checked + label + ul{		
+		background-color: rgba(11,55,88,.98);
+		display: block;
+	}
+	#nav_3_control:checked + label .down,
+	#nav_4_control:checked + label .down{		
+		display: none;
+	}
+	#nav_3_control:checked + label .up,
+	#nav_4_control:checked + label .up{		
+		display: inline-block;		
+	}
+	#hamburger_control:checked ~ nav > ul{
+		transform: scale(1);
+		background-color: rgba(16,36,55,.98);
+		border-radius: 0 0 0 200%;
+		transition: transform cubic-bezier(.86,0,.07,1) 1s,opacity .1s linear,-webkit-transform cubic-bezier(.86,0,.07,1) 1s;
+	}	
+	#hamburger_control:checked ~ label .burger_middle{
+		opacity: 0;
+	}
+	#hamburger_control:checked ~ label .burger_top{
+		width: 50px;
+		transform: translateX(-5px) translateY(10px) rotate(45deg);
+		background-color: transparent;
+	}
+	#hamburger_control:checked ~ label .burger_bottom{
+		width: 50px;
+		transform: translateX(-5px) translateY(-15px) rotate(-45deg);
+		background-color: transparent;
+	}
+	.hamburger{
+		width: 45px;
+		height: 45px;			
+		cursor: pointer;
+		transition: .5s;
+		position: absolute;
+		right: 5px;
+		top: 8px;
+		z-index: 99;	
+	}
+	.burger_top, .burger_middle ,.burger_bottom{
+		display: block;
+		width: 35px;
+		height: 5px;
+		background-color: #102437;
+		margin: 8px 5px;
+		transition: .5s;			
+	}
+	#hamburger_control:checked ~ .righttop{
+		transform: translateX(-110px) translateY(110px);
+		transition: .5s .3s;
+	}
+	.righttop{
+		width: 160px;
+		position: absolute;
+		top: -140px;
+		right: -170px;
+	}
+	#hamburger_control:checked ~ .shosetop{
+		transform: translateX( 250px) translateY(250px) rotate(70deg);
+		transition: .5s .5s;
+	}
+	.shosetop{
+		width: 220px;
+		position: absolute;
+		left: -300px;						
+	}
+	nav > ul > .nav_1{
+		opacity: 0;
+	}
+	#hamburger_control:checked ~ nav > ul > .nav_1{
+		opacity: 1;
+		transition: .5s .7s;
+	}
+	nav > ul > .nav_2{
+		opacity: 0;
+	}
+	#hamburger_control:checked ~ nav > ul > .nav_2{
+		opacity: 1;
+		transition: .5s .8s;
+	}
+	nav > ul > .nav_3{
+		opacity: 0;
+	}
+	#hamburger_control:checked ~ nav > ul > .nav_3{
+		opacity: 1;
+		transition: .5s .9s;
+	}
+	nav > ul > .nav_4{
+		opacity: 0;
+	}
+	#hamburger_control:checked ~ nav > ul > .nav_4{
+		opacity: 1;
+		transition: .5s 1s;
+	}
+	nav > ul > .nav_5{
+		opacity: 0;
+	}
+	#hamburger_control:checked ~ nav > ul > .nav_5{
+		opacity: 1;
+		transition: .5s 1.1s;
+	}
+
+}
+
+ /*螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	.smalllogo{
+		display: none;
+	}
+	.hamburger{
+		display: none;
+	}
+	.biglogo{
+		width: 130px;
+		top: 7px;
+		left: 0;
+	}
+	nav ul li a{
+		padding: 0px 30px;
+		color: #444;
+		line-height: 100px;	
+	}
+	nav ul{	
+		position: absolute;
+		right: 0;
+		font-size: 0;
+	}
+	nav a:hover{	
+		color: #F04D50;
+		font-weight: 700;		
+	}	
+	#hamburger_control{
+		display: none;
+	}
+	.nav_3 ul,.nav_4 ul{
+		display: none;
+	}
+	.nav_3 img,.nav_4 img{
+		display: none;
+	}
+	.nav_3:hover ul,.nav_4:hover ul{
+		display: block;
+	}
+	.nav_4 .aboutus_nav1 a:hover,
+	.nav_4 .aboutus_nav2 a:hover,
+	.nav_3 .product_nav1 a:hover,
+	.nav_3 .product_nav2 a:hover,
+	.nav_3 .product_nav3 a:hover,
+	.nav_3 .product_nav4 a:hover{	
+		color: #F04D50;	
+	}
+	.aboutus_nav,.product_nav{
+		width: 132px;
+		height: 60px;
+		background-color: rgba(68,68,68,.5);
+		text-align: center;
+		line-height: 40px;
+		display: block;
+		position: absolute;
+		right: 132px;
+		z-index: 50;
+	}
+	.aboutus_nav1,.product_nav1{
+		top: 0px;
+	}
+	.aboutus_nav2,.product_nav2{
+		top: 60px;
+	}
+	.product_nav{
+		position: absolute;
+		right: 264px;
+	}
+	.product_nav3{
+		top: 120px;
+	}
+	.product_nav4{
+		top: 180px;
+	}
+	.nav_3 .product_nav a,.nav_4 .aboutus_nav a{
+		text-decoration: none; 
+		font-size: 16px;
+		color: #fff;
+		text-align: center;
+		line-height: 60px;
+		padding: 0px 34px;
+	}
+	.nav_3 .product_nav a{
+		padding: 0px 50px;
+	}
+	.righttop,.shosetop{
+		display: none;
+	}
+}
+
+ /*螢幕尺寸: 1200px 以上。*/ 
+@media screen and (min-width: 1200px){
+	.biglogo{
+		width: 150px;
+		top: 0;		
+	}
+}

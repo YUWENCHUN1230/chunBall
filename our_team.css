@@ -1,0 +1,202 @@
+*{
+	/*outline: solid 1px #f00;*/
+}
+body{
+	font-family: 微軟正黑體, roboto, arial, sans-serif;	
+}
+.bn{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background-image: url('images/aboutus_bn3.jpg');
+	background-size: contain;	
+	background-position: center center;	
+}
+.bn_text h1:before{
+	content: '';
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253,214,8,0.5); 
+    transition: transform 0.6s;   
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,200%,0);
+}
+.bn:hover .bn_text h1:before{
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-200%,0);
+	background-color: rgba(253,214,8,0.5);
+	transition: transform 0.6s;
+}
+.bn:hover .bn_text h1{
+	transform: scale(1.1);
+	font-weight: 600;
+	transition: .5s;
+}
+.bn_text h1{	
+	text-shadow: 0px 0px 0px #fff;	
+	text-align: center;
+	letter-spacing: 3px;
+	transition: .5s;		
+}
+.bn_text:before{
+	content: '';
+	width: 80%;
+	height: 5px;
+	background-color: #102437;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	box-shadow: 0px 255px 0px #102437;
+}
+.bn_text .textlogo{
+	opacity: .1;
+	max-width: 250px;
+	transform: rotate(-15deg);
+	display: block;
+	position: absolute;
+	left: -10%;
+	top: 0;
+}
+.ourteam{
+	width: 100%;
+}
+.team_wrap{
+	margin: auto;
+}
+.team_title h1{	
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #102437;
+	padding: 10px 0px;
+	position: relative;
+}
+@keyframes rotateball{
+	0%{transform: rotateY(72deg);}
+   25%{transform: rotateY(144deg);}
+   50%{transform: rotateY(216deg);}
+   75%{transform: rotateY(288deg);}
+  100%{transform: rotateY(360deg);}
+} 
+.team_title h1:after{
+	content: '';
+	margin: auto;
+	margin-top: 8px;
+	width: 100px;
+	height: 3px;
+	background-color: #102437;
+}
+.team_contents{
+	width: 100%;		
+	text-align: center;
+	padding: 60px 0;
+	position: relative;
+	z-index: 5;
+}
+.team_wrap > div {
+	margin-top: 100px;
+	opacity: 0;
+}
+.team_member{
+	width: 150px;
+	height: 260px;
+	position: relative;	 
+	display: inline-block;
+	vertical-align: top;		
+}
+.team_member1 h3,.team_member2 h3,.team_member3 h3,.team_member4 h3,.team_member5 h3,.team_member6 h3,.team_member7 h3,.team_member8 h3{
+	width: 150px;
+	color: #fff;
+	font-size: 16px;
+	z-index: 10;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	transition: .5s;		
+}
+.team_member1:hover.team_member1 h3,
+.team_member2:hover.team_member2 h3,
+.team_member3:hover.team_member3 h3,
+.team_member4:hover.team_member4 h3,
+.team_member5:hover.team_member5 h3,
+.team_member6:hover.team_member6 h3,
+.team_member7:hover.team_member7 h3,
+.team_member8:hover.team_member8 h3{
+	color: #F04D50;
+	font-weight: 900;
+	bottom: 120px;	
+	opacity: 1;
+	transform: scale(1.5);		
+}
+.team_member1:hover .mem1:before,
+.team_member2:hover .mem2:before,
+.team_member3:hover .mem3:before,
+.team_member4:hover .mem4:before,
+.team_member5:hover .mem5:before,
+.team_member6:hover .mem6:before,
+.team_member7:hover .mem7:before,
+.team_member8:hover .mem8:before{
+	opacity: .5;
+}
+.mem1,.mem2,.mem3,.mem4,.mem5,.mem6,.mem7,.mem8{
+	width: 100%;
+	height: 100%;
+	background-color: #77f;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+.mem_left{
+	transform: rotate(-60deg);
+}
+.mem_right{
+	transform: rotate(60deg);
+}
+.mem1:before,.mem2:before,.mem3:before,.mem4:before,.mem5:before,.mem6:before,.mem7:before,.mem8:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	visibility: visible;			
+	background-size: cover;
+	transform-origin: 0 0;		
+}
+.mem1:before{			
+	background-image: url('images/team1.png');		
+}
+.mem2:before{			
+	background-image: url('images/team2.png');			
+}
+.mem3:before{			
+	background-image: url('images/team3.jpg');			
+}
+.mem4:before{			
+	background-image: url('images/team4.png');			
+}
+.mem5:before{			
+	background-image: url('images/team5.png');			
+}
+.mem6:before{			
+	background-image: url('images/team6.png');			
+}
+.mem7:before{			
+	background-image: url('images/team7.jpg');			
+}
+.mem8:before{			
+	background-image: url('images/team8.jpg');			
+}
+.mem_left:before{
+	transform: rotate(60deg) translateY(-50%);
+}
+.mem_right:before{
+	transform: rotate(-60deg) translateX(-75%);
+}
+.mem_center:before{
+	transform: translateX(-25%);
+}

@@ -1,0 +1,295 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){
+	.second_nav ul{
+		display: none;
+	}
+	.bn{	
+		margin-top: 60px;
+		padding-bottom: 50%;		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 16px;		
+		position: absolute;		
+		bottom: 50%;						
+	}
+	.bn_text .textlogo,
+	.bn_text .textshose,
+	.bn_text:before,
+	.bn_text h1:before{	
+		display: none;
+	}
+	.shose{
+		outline: solid 1px #fff;
+	}	
+	.shose_photo{
+		display: block;
+	}
+	.perspect_box{
+		text-align: center;
+	}	
+	.perspect_box img{		
+		vertical-align: top;
+	}
+	.perspective{
+		width: 30px;
+		outline: solid 1px #888;
+		display: inline-block;
+		margin: 5px;
+		cursor: pointer;
+	}
+	.perspec{
+		font-size: 0;
+	}
+	.shose_detail{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+		position: relative;	
+		margin-top: 50px;
+		padding-top: 30px;
+		border-top: dashed 2px #102437;
+		border-bottom: dashed 2px #102437;		
+	}		
+	.shose_detail .discount{
+		position: absolute;
+		left: 175px;
+		top: 66px;
+	}	
+	.guessyoulike{
+		width: 100%;
+		padding-top: 50px;
+	}
+	.guess_title h1:after{
+		display: none;
+	}	
+	.contents_box{
+		width: 45%;
+		margin: 30px 0px;
+	}
+	.box3:after{
+		content: '20% OFF';
+	    font-size: 20px;
+	    line-height: 30px;
+	    color: #fff;
+	    width: 100%;
+	    min-height: 30px;
+	    text-align: center;
+	    opacity: .7;
+	    position: absolute;
+	    right: 0px;
+	    top: 0;
+	    left: 0;
+	    background-image: linear-gradient(90deg,rgba(255,0,0,0) 0%,rgba(255,0,0,.8) 35%,rgba(255,0,0,.8) 65%,rgba(255,0,0,0) 100%);
+		}
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	.second_nav ul li a{
+		text-decoration: none; 
+		font-size: 18px;
+		color: #102437;
+		font-weight: 700;
+	}
+	.second_nav ul{
+		width: 100%;
+		margin: auto;
+		padding: 40px 0px;    
+	}
+	.second_nav li{
+		display: inline-block;
+    	margin: 10px 20px 10px 25px;
+	}
+	nav a:hover,.second_nav ul li a:hover{	
+		color: #F04D50;
+		font-weight: 700;
+	}
+	nav ul .nav_3 a{
+		color: #F04D50;
+		font-weight: 700;
+	}
+	.second_nav .second_nav2 a{
+		color: #F04D50;
+		font-weight: 900;
+	}
+	.bn{
+		padding-bottom: 55%;
+		margin-top: 100px;
+	}
+	.bn_text{
+		width: 42%;
+		height: 300px;		
+		background-color: #fff;		
+		position: absolute;
+		top: 0;
+		left: 45%;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		overflow: hidden;
+		box-shadow: 30px -30px 0px #102437;
+	}
+	.bn_text .textshose{	
+		display: none;
+	}
+	.bn_text h1{
+		width: 100%;			
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 45%;
+		margin: auto;
+		font-weight: 500;
+		padding: 0 10px; 
+		color: #102437;
+	}
+	.shose{
+		outline: solid 1px #fff;
+	}	
+	.perspective{
+		width: 100px;
+		outline: solid 1px #888;
+		margin: 10px 25px;
+		display: block;
+		cursor: pointer;
+	}
+	.perspect_box{
+		display: inline-block;
+		font-size: 0;
+		margin-left: 20px;
+	}
+	.shose_photo{		
+		width: 70%;
+		display: block;
+		float: right;
+		margin-right: 40px;
+		background-color: rgb(237, 237, 237);
+	}
+	.shose_detail{
+		width: 100%;
+		padding: 0 20px;
+		padding-top: 80px;
+		box-sizing: border-box;	
+		position: relative;	
+	}	
+	.shose_detail .discount{
+		position: absolute;
+		left: 175px;
+		top: 115px;
+	}
+	.guessyoulike{;
+		padding-top: 70px;
+	}
+	.contents_box{
+		width: 30%;
+		margin: 10px 0px;
+	}
+	.box3:after{
+		content:'20% OFF';
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+		color: #fff;
+		width: 150px;	
+		height: 30px;
+		background-color: #f00;
+		opacity: .7;	
+		position: absolute;
+		bottom: 120px;	
+		right: -20px;
+		transform: rotate(-15deg);
+	}
+}
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){
+	.second_nav ul{
+		width: 1200px;
+	}	
+	.bn{
+		padding-bottom: 40%;
+		margin-top: 100px; 		
+	}
+	.bn_text{		
+		top: 30%;
+		left: 40%;		
+		box-shadow: 30px 30px 0px #102437;
+	}
+	.bn_text .textshose{
+		display: block;	
+		max-width: 450px;		
+		position: absolute;	
+		right: -13%;
+		bottom: -14%;
+	}	
+	.bn_text h1{			
+		font-size: 22px;				
+	}
+	.guessyoulike{
+		padding-top: 100px;
+	}
+	.shose{
+		width: 1200px;
+		height: 760px;
+		outline: solid 1px #888;
+	}	
+	.shose_contents{	
+		font-size: 0;
+		position: relative;
+		padding: 20px 0;
+	}
+	.perspect_box{
+		display: inline-block;
+		position: relative;
+		margin-left: 0px;
+	}
+	.shose_photo{
+		width: 670px;
+		height: 670px;		
+		display: inline-block;
+		position: absolute;
+		top: 20px;
+		left: 150px;
+		background-color: rgb(237, 237, 237);
+	}	
+	#myimage{
+		width: 670px;
+		height: 670px;
+	}	
+	.shose_detail{
+		width: 350px;
+		padding-top: 0px;
+		margin: 10px 20px;
+		position: absolute;
+		right: 0;
+	}
+	.shose_detail .discount{
+		position: absolute;
+		right: 20px;
+		top: 35px;
+	}	
+	.products{
+		width: 1200px;
+		padding-top: 60px;	
+		margin: auto;
+	}
+	.contents_box{
+		width: 30%;
+		margin: 10px 0px;
+	}
+}

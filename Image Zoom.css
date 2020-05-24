@@ -1,0 +1,27 @@
+#myresult{
+	width: 350px;
+  height: 350px;
+  background-color: rgb(237, 237, 237);
+  border: 3px solid #d4d4d4;
+  position: absolute;
+  top: 20%;
+  right: -55%;
+  z-index: 40;
+}
+.img-zoom-lens {
+  position: absolute;
+  border: 3px solid #d4d4d4;
+  width: 200px;
+  height: 200px;
+  cursor: move;
+}
+
+@media screen and (max-width: 1200px){
+  #myresult{
+    display: none;
+  }
+  .img-zoom-lens{
+    display: none;
+  }
+}
+

@@ -1,0 +1,216 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){	
+	.bn{	
+		margin-top: 60px;
+		padding-bottom: 50%;		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 16px;		
+		position: absolute;		
+		bottom: 50%;						
+	}
+	.bn_text .textlogo,
+	.bn_text .textshose,
+	.bn_text:before,
+	.bn_text h1:before{	
+		display: none;
+	}
+	.ourteam{
+		width: 100%;
+		padding-top: 50px;		
+	}
+	.team_title h1:after{
+		display: none;
+	}
+	.team_member{
+		margin: 10px 80px;				
+	}
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	nav ul .nav_4 a{
+		color: #F04D50;
+		font-weight: 700;
+	}	
+	.bn{
+		padding-bottom: 55%;
+		margin-top: 100px;
+	}
+	.bn_text{
+		width: 42%;
+		height: 300px;		
+		background-color: #fff;		
+		position: absolute;
+		top: 0;
+		left: 45%;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		overflow: hidden;
+		box-shadow: 30px -30px 0px #102437;
+	}
+	.bn_text .textshose{	
+		display: none;
+	}
+	.bn_text h1{
+		width: 80%;			
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 45%;
+		bottom: 0;
+		margin: auto;
+		font-weight: 500;
+		padding: 0 10px; 		
+	}
+	.ourteam{
+		width: 100%;
+		padding-top: 70px;
+		position: relative;		
+	}
+	.ourteam:before{
+		content: '';
+		width: 100%;
+		height: 630px;
+		background-color: #057CC7;
+		transform: skewY(10deg);;
+		position: absolute;
+		left: 0;
+		top: 150%;
+		z-index: -2;
+	}
+	.team_wrap{	
+		width: 100%;
+	}
+	.team_contents:after{
+		content: 'OUR TEAM';
+    	font-size: 120px;
+    	color: #ddd;
+    	font-weight: 900;
+    	transform: skewY(10deg);
+    	position: absolute;
+    	top: 57%;
+    	left: 25%;
+    	z-index: -1;
+    	text-shadow: 1px -1px 2px #bbb,
+    				 2px -2px 2px #bbb,
+    				 3px -3px 2px #bbb,
+    				 4px -4px 2px #bbb,
+    				 5px -5px 2px #bbb,
+    				 6px -5px 2px #bbb;
+	}
+	.team_title h1:after{
+		display: block;
+	}
+	.team_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 56%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.team_member{		
+		margin: 10px 80px; 				
+	}	
+}
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){	
+	.bn{
+		padding-bottom: 40%;
+		margin-top: 100px; 		
+	}
+	.bn_text{		
+		top: 30%;
+		left: 40%;		
+		box-shadow: 30px 30px 0px #102437;
+	}
+	.bn_text .textshose{
+		display: block;	
+		max-width: 450px;		
+		position: absolute;	
+		right: -13%;
+		bottom: -14%;
+	}	
+	.bn_text h1{			
+		font-size: 22px;				
+	}
+	.ourteam{		
+		padding-top: 100px;		
+	}
+	.team_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 54%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.team_contents{
+		width: 1200px;
+		margin: auto;
+		text-align: initial;		
+		padding-bottom: 0;
+	}
+	.team_contents:after{
+		content: 'OUR TEAM';
+    	font-size: 120px;
+    	color: #ddd;
+    	font-weight: 900;
+    	transform: skewY(10deg);
+    	position: absolute;
+    	top: 78%;
+    	left: 45%;
+    	z-index: -1;
+    	text-shadow: 1px -1px 2px #bbb,
+    				 2px -2px 2px #bbb,
+    				 3px -3px 2px #bbb,
+    				 4px -4px 2px #bbb,
+    				 5px -5px 2px #bbb,
+    				 6px -5px 2px #bbb;
+	}
+	.team_member1{
+		left: -50px;
+	}
+	.team_member2{
+		top: 130px;
+		left: -115px;
+	}
+	.team_member3{
+		left: -183px;
+	}
+	.team_member4{
+		top: -150px;
+		left: 690px;
+	}
+	.team_member5{
+		top: -280px;
+		left: 625px;
+	}
+	.team_member6{
+		top: 130px;
+		left: -425px;
+	}
+	.team_member7{
+		top: -280px;
+		left: 443px;
+	}
+	.team_member8{
+		top: -150px;
+		left: 380px;
+	}
+}

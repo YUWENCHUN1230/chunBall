@@ -1,0 +1,113 @@
+@media screen and (max-width: 767px){
+	.sales_office{
+		width: 100%;		
+	}
+	.communities{
+		width: 100%;
+		margin: 20px auto;			
+	}
+	.communities img{		
+		max-width: 35px;
+	}
+	.copyright{
+		width: 100%;		
+	}
+	.gototop{
+		width: 50px;					
+	}
+	.gototop:after{
+		display: none;
+	}
+	
+}
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	.gototop{
+		width: 70px;					
+	}
+	.gototop:after{
+		position: absolute;
+		top: 71%;
+   	 	right: -18%;
+	}
+}
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){
+	.gototop{
+		width: 100px;					
+	}
+	.gototop:after{
+		position: absolute;
+		top: 76%;
+		right: -5%;
+	}
+}
+.footer{
+	width: 100%;
+	margin-top: 100px;
+	background-size: cover;
+	background-image: url('images/footer.png');
+	padding: 30px 0;
+}
+.sales_office{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.sales_office h3{
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 16px;
+	line-height: 35px;
+}
+.communities{
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 0;	
+}
+.communities img{
+	margin: 0 20px;
+	transition: .5s;
+}
+.communities img:hover{
+	transform: translateY(-5px);
+}
+.copyright{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 14px;
+}
+.gototop{
+	position: fixed;
+	bottom: 5px;
+	right: 15px;
+	opacity: 0.9;
+	color: black;
+	font-size: 0;
+	z-index: 40;
+	cursor: pointer;			
+}
+.gototop img{
+	width: 100%;
+}
+.gototop:after{
+	content: 'Top';
+	color: #ECC2B0;
+	font-size: 14px;
+	width: auto;
+	height: auto;
+	font-weight: 700;	
+	text-shadow: 1px 1px 0px #444;
+}
+.gototop:hover{
+	animation: rolling .8s alternate infinite;
+}
+@keyframes rolling{
+	0%{transform: rotateY(0deg);}
+	100%{transform: rotateY(360deg);}
+}
+

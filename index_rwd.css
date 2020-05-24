@@ -1,0 +1,1025 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){
+	.kvwrap{
+		padding-top: 60px;	
+	}
+	.design,
+	.new,
+	.product,
+	.team{
+		width: 100%;
+		padding-top: 50px;
+	}	
+	.product_title h1{
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+		color: #102437;
+		padding: 55px 0px 10px 0px;
+		position: relative;
+	}
+	.de_title h1:after,
+	.new_title h1:after,
+	.product_title h1:after,
+	.team_title h1:after{
+		display: none;
+	}
+	.proces1,.proces2,.proces3{
+		width: 50%;
+		margin: 10px 0;
+		display: inline-block;		
+	}
+	.de_process i{
+		padding: 20px;
+		font-size: 45px;
+		display: block;
+		color: #fff;
+	}
+	.back{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 100%;		
+		outline: dashed 1px #102437;		
+	}
+	.proces2 .back{
+		left: 0%;
+	}
+	.proces2 .front{
+		position: relative;
+		left: 100%;
+	}
+	.front h2{
+		font-size: 18px;
+		padding: 15px 0;
+		color: #fff;
+	}
+	.back h3{
+		font-size: 18px;
+		padding: 5px;
+		margin-top: 20%;
+	}	
+	.de_contents{
+		outline: dashed 1px #102437;		
+		margin-top: 60px;
+	}
+	.contents_box{		
+		width: 40%;
+		margin: 10px 5px;
+	}	
+	.perspective{
+		width: 30px;
+		margin: 5px;
+	}
+	.perspect_box{
+		margin-bottom: -20px;
+	}
+	.contents_box2,.contents_box3{
+		width: 100%;
+	}
+	.contents_txt h3{
+		font-size: 18px;
+		position: absolute;
+		left: 10%;
+    	top: -5%;
+    	border-bottom: initial;
+    	padding-bottom: initial;
+	}
+	.contents_box:hover .contents_txt h3{
+		font-weight: 600;		
+	}
+	.contents_photo2{
+		width: 100%;
+	}
+	.de_choice,.se_choice{
+		width: 135px;
+		height: 50px;
+		margin: 10px 0;
+	}
+	.choice{
+		margin-top: 40px;
+	}
+	.thanks{		
+		width: 100%;
+	}
+	.thanks h3{
+		width: 100%;
+	}
+	.thanks li{
+		width: 75%;
+	}
+	.form {
+    	width: 100%;
+	}   
+	.email{
+		width: 75%;
+	}	
+	.product_shoes,
+	.product_cloth,
+	.product_plant,
+	.product_sock{
+		width: 50%;
+    	height: 250px;
+		position: relative;
+		margin: 15px 0px;		
+	}
+	.product_shoes img,
+	.product_cloth img,
+	.product_plant img,
+	.product_sock img{
+		width: 150%;
+	}
+	.shoes_btn{
+		position: absolute;
+		left: 50px;
+		top: 45px;
+		z-index: 10;
+	}
+	.cloth_btn{
+		position: absolute;
+		left: 50px;
+		bottom: 50px;
+		z-index: 10;
+	}
+	.plant_btn{
+		position: absolute;
+		left: 50px;
+		top: 55px;
+		z-index: 10;
+	}
+	.sock_btn{
+		position: absolute;
+		left: 50px;
+		bottom: 50px;
+		z-index: 10;
+	}
+	.product_shoes h3{
+		width: 250px;
+		position: absolute;
+		left: 5px;
+		top: 125px;
+		transform: rotate(30deg);
+	}
+	.product_cloth h3{
+		width: 250px;
+		position: absolute;
+		left: -7px;
+		bottom: 140px;
+		transform: rotate(-30deg);
+	}
+	.product_plant h3{
+		width: 250px;
+		position: absolute;
+		left: 5px;
+		top: 145px;
+		transform: rotate(30deg);
+	}
+	.product_sock h3{
+		width: 250px;
+		position: absolute;
+		left: 40px;
+		top: 10px;
+		transform: rotate(-30deg);
+	}	
+	.product_shoes img{
+		position: absolute;
+		right: 0px;
+		bottom: 0;
+	}
+	.product_cloth img{
+		position: absolute;
+		right: -20px;
+		top: 20px;
+	}
+	.product_plant img{
+		position: absolute;
+		right: -20px;
+		bottom: 0;
+	}
+	.product_sock img{
+		position: absolute;
+		right: -20px;
+		top: 20px;
+	}
+	.team_contents{
+		width: 100%;
+		margin-bottom: 100px;				
+	}
+	.team:before,
+	.team:after{
+		display: none;
+	}
+	.team_member{			
+		display: flex;
+		flex-wrap: wrap;			
+	}
+	.team_member1{width: 45%; position: relative; margin: 10px auto;}
+	.team_member2{width: 45%; position: relative; margin: 10px auto;}
+	.team_member3{width: 45%; position: relative; margin: 10px auto;}
+	.team_member4{width: 45%; position: relative; margin: 10px auto;}
+	.team_member5{width: 45%; position: relative; margin: 10px auto;}
+	.team_member6{width: 45%; position: relative; margin: 10px auto;}
+	.team_member7{width: 45%; position: relative; margin: 10px auto;}
+	.team_member8{width: 45%; position: relative; margin: 10px auto;}
+	.team_member h3{
+    	font-size: 18px;
+	    color: #fff;
+	    padding: 5px 5px;
+	    background-color: rgba(0,0,0,.3);
+	    position: absolute;
+	    left: 0;
+	    top: 65%;
+	    width: 100%;
+	    box-sizing: border-box;
+	    transition: .5s;
+    }
+    .team_member h3:hover{
+		color: #F04D50;
+	}
+    .new_contents{
+    	width: 100%;
+    	margin-top: 30px;
+    }
+    .new_contents:before,
+	.new_contents:after{
+		display: none;
+	}
+	.new_cloth:before,
+	.new_plant:before,
+	.new_sock:before,
+	.new_shoes:before{
+		content: 'NEW';
+	    font-size: 20px;
+	    line-height: 30px;
+	    color: #fff;
+	    width: 80px;
+	    height: 30px;
+	    background-color: #888;
+	    opacity: .9;
+	    position: absolute;
+	    top: 0;
+	    left: -20px;
+	    transform: rotate(-30deg);
+	    z-index: 2;		
+		}
+	.new_cloth:after,
+	.new_shoes:after{
+		content:'20% OFF';
+		font-size: 20px;
+		line-height: 30px;
+		color: #fff;
+		width: 100%;	
+		min-height: 30px;
+		opacity: .7;	
+		position: absolute;
+		top: 0;	
+		right: 0px;
+		background-image: linear-gradient(90deg,rgba(255,0,0,0) 0%,rgba(255,0,0,.8) 35%,rgba(255,0,0,.8) 65%,rgba(255,0,0,0) 100%);
+	}
+    #curry1{
+    	display: none;
+    }
+    .new_cloth{
+		width: 70%;
+		display: inline-block;
+		position: relative;
+		background-color: #ededed;
+	} 
+	.cloth_txt{
+		display: none;
+	} 
+	.new_plant,
+	.new_sock,
+	.new_shoes{
+		width: 45%;
+		display: inline-block;
+		position: relative;
+		background-color: #ededed;
+	} 
+	.new_plant{
+		margin: 70px 5px 0px 5px;
+	}	
+	.new_sock{
+		margin: 70px 5px 0px 5px;
+	}
+	.new_shoes{
+		margin: 20px 10px;
+	}
+	.cloth_txt h3,.plant_txt h3,.sock_txt h3,.shoes_txt h3{
+		padding: 25px 5px;
+		line-height: 24px;
+		text-align: center;	
+		position: relative;
+		font-size: 16px;
+		color: #102437;
+		transition: .5s;
+		border-top: dashed 1px #888;
+		background-color: #fff;	
+		box-sizing: border-box; 
+	}
+	.inside_contents{
+		width: 80%;
+		margin: 20px auto;
+		outline: solid 1px #102437;
+		background-color: #fff;
+		box-shadow: 10px 10px rgba(16,36,55,.8);
+	}
+	.inside_contents a{
+		text-decoration: none;		
+	}
+	.inside_contents h1{
+		padding: 15px 0px;
+		font-size: 16px;
+		color: #102437;
+		font-weight: 700;
+		line-height: 25px;
+	}	
+	.inside_contents h1:hover{
+		color: #F04D50;
+	}
+    .inside_contents h2{
+		color: #102437;
+	    letter-spacing: 3px;
+	    font-size: 16px;
+	    line-height: 24px;
+	    margin: 10px 0px;	   
+    }
+    .location{
+    	padding-bottom: 15px;
+    }
+	.cloth_photo img,
+	.plant_photo img,
+	.sock_photo img,
+	.shoes_photo img,
+	.change_photo img{
+		width: 100%;			
+		transition: .5s;	
+		vertical-align: top;		
+	}
+	.change_photo img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+	}	
+	.backplate{
+		width: 100%;
+		height: 550px;
+		background-color: rgba(16,36,55,.8);
+		margin-top: -530px;
+	}
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){	
+	.kvwrap{
+		padding-top: 100px;	
+	}
+	.design,
+	.new,
+	.product,
+	.team{
+		width: 100%;
+		padding-top: 70px;
+	}
+	.product_contents{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.product_title h1{
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+		color: #102437;
+		padding: 10px 0px;
+		position: relative;
+	}
+	.de_title h1:before,
+	.new_title h1:before,
+	.product_title h1:before,
+	.team_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 56%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.product_title h1:before{
+		top: -10%;
+	}	
+	.proces1,.proces2,.proces3{
+		width: 30%;	
+		display: inline-block;
+		position: relative;		
+	}
+	.de_process{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	    margin-top: 40px;
+	}	
+	.de_process i{
+		padding: 20px;
+		font-size: 60px;
+		display: block;
+		color: #fff;
+	}
+	.proces1 .front{
+		transform: rotateY(0deg);
+	}
+	.proces2 .front{
+		transform: rotateY(0deg);	
+	}
+	.proces3 .front{
+		transform: rotateY(0deg);	
+	}
+	.back{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: linear-gradient(25deg, #FFAFD5
+	 50%, #6FDAFF 50%);
+		color: #fff;			
+		transform: perspective(400px) rotateY(180deg) translateY(0px);
+	}
+	.front,.back{
+		transition: 1.5s;
+		backface-visibility: hidden;
+	}	
+	.proces1:hover .front,
+	.proces2:hover .front,
+	.proces3:hover .front{
+		transform: rotateY(180deg);
+	}
+	.proces1:hover .back,
+	.proces2:hover .back,
+	.proces3:hover .back{
+		transform: rotateY(360deg);
+	}
+	.front h2{
+		font-size: 20px;
+		padding: 15px 0;
+		color: #fff;
+	}
+	.back h3{
+		padding: 5px 0;
+		line-height: 160px;
+	}
+	.de_contents{
+		outline: dashed 1px #102437;		
+		margin-top: 70px;
+	}
+	.contents_box{		
+		width: 30%;
+		margin: 10px 15px;
+	}
+	.perspective{
+		width: 100px;
+		margin: 10px;
+	}
+	.perspect_box{
+		margin-bottom: 40px;
+	}
+	.contents_box2,.contents_box3{
+		width: 1150px;
+	}
+	.contents_photo2{
+		width: 100%;
+	}
+	.contents_txt h3{
+		font-size: 22px;
+		position: absolute;
+		left: 10%;
+    	top: 0%;
+    	border-bottom: solid 1px;
+    	padding-bottom: 7px;
+	}
+	.contents_box:hover .contents_txt h3{
+		padding-right: 20px;
+		font-weight: 600;
+		border-bottom: solid;
+	}
+	.de_choice,.se_choice{
+		width: 170px;
+		height: 50px;
+		margin: 10px;
+	}
+	.thanks{		
+		width: 550px;
+	}
+	.form {
+    	width: 550px;
+	}
+	.email{
+		width: 450px;
+	}
+	.product_shoes,
+	.product_cloth,
+	.product_plant,
+	.product_sock{
+		width: 22%;
+    	height: 350px;
+		position: relative;
+		margin: 0px 10px;		
+	}
+	.product_shoes img,
+	.product_cloth img,
+	.product_plant img,
+	.product_sock img{
+		width: 95%;
+	}
+	.shoes_btn{
+		position: absolute;
+		left: 50px;
+		top: 45px;
+	}
+	.cloth_btn{
+		position: absolute;
+		left: 50px;
+		bottom: 50px;
+	}
+	.plant_btn{
+		position: absolute;
+		left: 50px;
+		top: 55px;
+	}
+	.sock_btn{
+		position: absolute;
+		left: 50px;
+		bottom: 50px;
+	}
+	.product_shoes h3{
+		width: 250px;
+		position: absolute;
+		left: 5px;
+		top: 125px;
+		transform: rotate(30deg);
+	}
+	.product_cloth h3{
+		width: 250px;
+		position: absolute;
+		left: -7px;
+		bottom: 140px;
+		transform: rotate(-30deg);
+	}
+	.product_plant h3{
+		width: 250px;
+		position: absolute;
+		left: 50px;
+		top: 145px;
+		transform: rotate(30deg);
+	}
+	.product_sock h3{
+		width: 250px;
+		position: absolute;
+		left: 40px;
+		top: 10px;
+		transform: rotate(-30deg);
+	}	
+	.product_shoes img{
+		position: absolute;
+		right: 0px;
+		bottom: -10%;
+    	width: 150%;
+	}
+	.product_cloth img{
+		position: absolute;
+		right: -50%;
+	    top: -30px;
+	    width: 150%;
+	}
+	.product_plant img{
+		position: absolute;
+		right: -5px;
+	    bottom: 0;
+	    width: 150%;
+	}
+	.product_sock img{
+		position: absolute;
+		right: 30px;
+		width: 150%;
+	}
+	.team:before,
+	.team:after{
+		display: none;
+	}
+	.team_contents{
+		width: 100%;
+		margin-bottom: 100px;
+		margin-top: 35px;				
+	}	
+	.team_member{			
+		display: flex;
+		flex-wrap: wrap;			
+	}
+	.team_member1{width: 25%; position: relative;}
+	.team_member2{width: 25%; position: relative;}
+	.team_member3{width: 25%; position: relative;}
+	.team_member4{width: 25%; position: relative;}
+	.team_member5{width: 25%; position: relative;}
+	.team_member6{width: 25%; position: relative;}
+	.team_member7{width: 25%; position: relative;}
+	.team_member8{width: 25%; position: relative;}
+	.team_member h3{
+    	font-size: 18px;
+	    color: #fff;
+	    padding: 20px 5px;
+	    background-color: rgba(0,0,0,.3);
+	    position: absolute;
+	    left: 0;
+	    top: 65%;
+	    width: 100%;
+	    box-sizing: border-box;
+	    transition: .5s;
+    }
+    .team_member h3:hover{
+		color: #F04D50;
+	}
+    .new_contents{		
+		width: 100%;
+		margin-top: 30px;
+	}
+	.new_contents:before,
+	.new_contents:after{
+		display: none;
+	}
+	.new_cloth:before,
+	.new_plant:before,
+	.new_sock:before,
+	.new_shoes:before{
+		content:'NEW';
+		font-size: 20px;
+		line-height: 30px;
+		color: #fff;
+		width: 80px;	
+		height: 30px;
+		background-color: #888;
+		opacity: .9;	
+		position: absolute;
+		top: 0;	
+		left: -20px;
+		transform: rotate(-30deg);		
+	}
+	.new_cloth:after,
+	.new_shoes:after{
+		content:'20% OFF';
+		font-size: 20px;
+		line-height: 30px;
+		color: #fff;
+		width: 200px;	
+		height: 30px;
+		background-color: #f00;
+		opacity: .7;	
+		position: absolute;
+		bottom: 120px;	
+		right: -10px;
+		transform: rotate(-10deg);
+	}
+    #curry1{
+    	display: none;
+    }
+    .new_cloth{
+		width: 40%;
+		display: inline-block;
+		position: relative;
+		background-color: #ededed;
+	} 
+	.cloth_txt{
+		display: none;
+	}  
+	.new_plant,
+	.new_sock,
+	.new_shoes{
+		width: 25%;
+		display: inline-block;
+		position: relative;
+		margin: 100px 10px;
+		background-color: #fff;
+	}
+	.cloth_txt h3,.plant_txt h3,.sock_txt h3,.shoes_txt h3{
+		padding: 25px 0px;
+		line-height: 24px;
+		text-align: center;	
+		position: relative;
+		font-size: 16px;
+		color: #102437;
+		transition: .5s;
+		border-top: dashed 1px #888;	 
+	}
+	.inside_contents{
+		width: 40%;
+		display: inline-block;
+		margin-left: -40px;
+		outline: solid 1px #102437;
+		box-shadow: 10px 10px rgba(16,36,55,.8);
+	}
+	.inside_contents a{
+		text-decoration: none;		
+	}
+	.inside_contents h1{
+		padding: 15px 0px;
+		font-size: 16px;
+		color: #102437;
+		font-weight: 700;
+		line-height: 25px;
+	}
+	.inside_contents h1:hover{
+		color: #F04D50;
+	}	
+    .inside_contents h2{
+		color: #102437;
+	    letter-spacing: 3px;
+	    font-size: 16px;
+	    line-height: 24px;
+	    margin: 10px 0px;	   
+    }
+    .location{
+    	padding-bottom: 10px;
+    }
+	.cloth_photo img,
+	.plant_photo img,
+	.sock_photo img,
+	.shoes_photo img,
+	.change_photo img{
+		width: 100%;			
+		transition: .5s;	
+		vertical-align: top;		
+	}
+	.change_photo img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+	}	
+	.backplate{
+		width: 100%;
+		height: 280px;
+		background-color: rgba(16,36,55,.8);
+		margin-top: -345px;
+	}
+}   
+
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){
+	.design,
+	.new,
+	.product,
+	.team{
+		width: 1200px;
+		padding-top: 100px;
+	}
+	.de_title h1:before,
+	.new_title h1:before,
+	.product_title h1:before,
+	.team_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 54%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.de_process i{
+		padding: 20px;
+		font-size: 70px;
+		display: block;
+		color: #fff;
+	}
+	.product_title h1:before{
+		top: 60%;
+	}
+	.new_contents{		
+		width: 1200px;
+		margin-top: 60px;
+	}
+	.new_contents:before,
+	.new_contents:after{
+		display: block;
+	}
+	#curry1,.cloth_txt{
+    	display: block;
+    }
+	.new_cloth,
+	.new_plant,
+	.new_sock,
+	.new_shoes{
+		width: 350px;
+		position: absolute;
+		background-color: #fff;
+		outline: dotted 2px #aaa;
+		transition: 1s;
+	}
+	.new_cloth{	
+		width: 310px;
+		top: 2%;
+    	left: 3%;
+		box-shadow: -10px 10px #102437;
+	}    
+	.new_cloth_hover{
+		transform: translateX(-40%) translateY(-25%);
+	}    
+	.backplate{
+		display: none;
+	}
+	.inside_contents{
+		display: none;
+	}
+	.new_plant{
+		top: 2%;
+    	right: 2%;
+		box-shadow: 10px 10px #102437;
+	}
+	.new_plant_hover{
+		transform: translateX(30%) translateY(-40%);
+	}
+	.new_sock{
+		width: 300px;
+		top: 45%;
+    	left: 2%;
+    	box-shadow: -10px 10px #102437;
+	}    
+	.new_sock_hover{
+		transform: translateX(-30%) translateY(15%);
+	}
+	.new_shoes{
+		width: 300px;
+		top: 55%;    	
+     	right: 3%;
+    	box-shadow: 10px 10px #102437;
+	}
+	.new_shoes_hover{
+		transform: translateX(30%) translateY(5%);
+	}
+	.cloth_txt h3,.plant_txt h3,.sock_txt h3,.shoes_txt h3{
+		padding: 25px 0px;
+		text-align: center;	
+		position: relative;
+		font-size: 16px;
+		color: #102437;
+		transition: .5s;
+		line-height: 24px;
+		border-top: dashed 1px #888;	 
+	}
+	.cloth_txt a,
+	.plant_txt a,
+	.sock_txt a,
+	.shoes_txt a{
+		width: 300px;
+	}
+	.cloth_txt:hover h3,
+	.plant_txt:hover h3,
+	.sock_txt:hover h3,
+	.shoes_txt:hover h3{
+		color: #F04D50;
+	}
+	.de_contents{
+		outline: solid 1px #888;		
+		margin-top: 50px;
+	}
+	.contents_box{		
+		width: 25%;
+	}
+	.perspective{
+		width: 100px;
+		margin: 10px 25px;
+	}
+	.perspect_box{
+		margin-bottom: 35px;
+	}
+	.contents_photo2{
+		width: 750px;
+		height: 750px;    	
+	}
+	.product_contents{
+		width: 100%;
+		padding-top: 40px;
+	}	
+	.product_title h1{
+		padding: 100px 0px 10px 0px;
+	}
+	.product_shoes,
+	.product_cloth,
+	.product_plant,
+	.product_sock{
+		width: 250px;
+		height: 500px;
+		margin: 0px 20px;		
+	}
+	.shoes_btn{
+		position: absolute;
+		left: 50px;
+		top: 100px;
+	}
+	.plant_btn{
+		position: absolute;
+		left: 50px;
+		top: 80px;
+	}
+	.product_shoes h3{
+		left: 50px;
+		top: 200px;
+	}
+	.product_cloth h3{
+		left: 50px;
+		bottom: 150px;
+	}
+	.product_plant h3{
+		left: 50px;
+		top: 180px;
+	}
+	.product_sock h3{
+		left: 40px;
+		top: 220px;
+	}	
+	.team_contents{			
+		margin: auto;
+		width: 1200px;
+		height: 430px;					
+		position: relative;				
+		perspective: 1500px;
+		perspective-origin: center center;							
+	}
+	.team:before,
+	.team:after{
+		display: block;
+	}	
+	.team_member{			
+		position: relative;
+		margin: 170px 500px;		
+		transform-style: preserve-3d;			
+		animation: photoRotate 40s 1s infinite;				
+	}	
+	.team_member:hover{
+		animation-play-state: paused; 
+	}
+	.team_member h3{
+		font-size: 12px;			
+		color: #102437;
+		transition: .5s;
+		margin-top: 15px;
+		padding: 0;
+		background-color: #fff;
+		position: initial;
+	}
+	.team_member h3:hover{
+		color: #F04D50;
+	}
+	.team_member1{
+		width: 200px;
+		transform: rotateY(45deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member2{
+		width: 200px;
+		transform: rotateY(90deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member3{
+		width: 200px;
+		transform: rotateY(135deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member4{
+		width: 200px;
+		transform: rotateY(180deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member5{
+		width: 200px;
+		transform: rotateY(225deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member6{
+		width: 200px;
+		transform: rotateY(270deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member7{
+		width: 200px;
+		transform: rotateY(315deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.team_member8{
+		width: 200px;
+		transform: rotateY(360deg) translateZ(500px);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}	
+}

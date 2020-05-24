@@ -1,0 +1,442 @@
+/* 螢幕尺寸: 767px 以下。 */
+@media screen and (max-width: 767px){
+	.bn{	
+		margin-top: 60px;
+		padding-bottom: 50%;		
+	}
+	.bn_text{	
+		width: 100%;
+		height: auto;
+		background-color: rgba(68,68,68,.2);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;							
+	}
+	.bn_text h1{
+		width: 100%;
+		color: #fff;
+		font-size: 16px;		
+		position: absolute;		
+		bottom: 50%;						
+	}
+	.bn_text .textlogo,
+	.bn_text .textshose,
+	.bn_text:before,
+	.bn_text h1:before{	
+		display: none;
+	}	
+	.design,.portfolio_title{
+		width: 100%;
+		padding-top: 50px;
+	}
+	.de_title h1:after,
+	.portfolio_title h1:after{
+		display: none;
+	}
+	.proces1,.proces2,.proces3{
+		width: 50%;
+		margin: 10px 0;
+		display: inline-block;
+	}
+	.de_process i{
+		padding: 20px;
+		font-size: 45px;
+		display: block;
+		color: #fff;
+	}
+	.back{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 100%;		
+		outline: dashed 1px #102437;					
+	}
+	.proces2 .back{
+		left: 0%;
+	}
+	.proces2 .front{
+		position: relative;
+		left: 100%;
+	}
+	.front h2{
+		font-size: 18px;
+		padding: 15px 0;
+		color: #fff;
+	}
+	.back h3{
+		font-size: 18px;
+		padding: 5px;
+		margin-top: 20%;
+	}
+	.de_contents{
+		outline: solid 1px #102437;		
+		margin-top: 60px;
+	}
+	.contents_box{		
+		width: 40%;		
+		margin: 10px 5px;
+	}
+	.perspective{
+		width: 30px;
+		margin: 5px;
+	}
+	.perspect_box{
+		margin-bottom: -20px;
+	}
+	.contents_box2,.contents_box3{
+		width: 100%;
+	}
+	.contents_txt h3{
+		font-size: 18px;
+		position: absolute;
+		left: 10%;
+    	top: -5%;
+    	border-bottom: initial;
+    	padding-bottom: initial;
+	}	
+	.contents_box:hover .contents_txt h3{
+		font-weight: 600;		
+	}
+	.contents_photo2{
+		width: 100%;
+	}
+	.de_choice,.se_choice{
+		width: 135px;
+		height: 50px;
+		margin: 10px 0;
+	}
+	.choice{
+		margin-top: 40px;
+	}
+	.thanks{		
+		width: 100%;
+	}
+	.thanks h3{
+		width: 100%;
+	}
+	.thanks li{
+		width: 75%;
+	}
+	.form {
+    	width: 100%;
+	}   
+	.email{
+		width: 70%;
+	}
+	.portfolio_contents{
+		width: 100%;
+	}
+	.portfolio_box{		
+		width: 50%;
+		margin: 20px 0px;
+	}
+	.portfo_hover{
+		display: none;
+	}
+	.portfo_txt img{
+		width: 60px;
+		height: 60px;
+		padding: 5px 0px;
+	}
+	.portfo_txt h3,.portfo_txt h4{
+		padding: 5px;
+	}
+}
+
+/* 螢幕尺寸: 768px 以上。 */
+@media screen and (min-width: 768px){
+	nav ul .nav_1 a{
+		color: #F04D50;
+		font-weight: 700;
+	}
+	.bn{
+		padding-bottom: 55%;
+		margin-top: 100px;
+	}
+	.bn_text{
+		width: 42%;
+		height: 300px;		
+		background-color: #fff;		
+		position: absolute;
+		top: 0;
+		left: 45%;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		overflow: hidden;
+		box-shadow: 30px -30px 0px #102437;
+	}
+	.bn_text .textshose{	
+		display: none;
+	}
+	.bn_text h1{
+		width: 100%;			
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		font-weight: 500;
+		padding: 0 10px; 
+		color: #102437;	
+		line-height: 300px;	
+	}	
+	.design,.portfolio_title{
+		width: 100%;
+		padding-top: 70px;
+	}
+	.de_title h1:before,
+	.portfolio_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 56%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.proces1,.proces2,.proces3{
+		width: 30%;			
+		display: inline-block;
+		position: relative;	
+	}	
+	.de_process{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	    margin-top: 40px;
+	}
+	.de_process i{
+		padding: 20px;
+		font-size: 60px;
+		display: block;
+		color: #fff;
+	}
+	.proces1 .front{
+		transform: rotateY(0deg);
+	}
+	.proces2 .front{
+		transform: rotateY(0deg);	
+	}
+	.proces3 .front{
+		transform: rotateY(0deg);	
+	}
+	.back{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: linear-gradient(25deg, #FFAFD5
+	 50%, #6FDAFF 50%);
+		color: #fff;			
+		transform: perspective(400px) rotateY(180deg) translateY(0px);
+	}
+	.front,.back{
+		transition: 1.5s;
+		backface-visibility: hidden;
+	}
+	.proces1:hover .front,
+	.proces2:hover .front,
+	.proces3:hover .front{
+		transform: rotateY(180deg);
+	}
+	.proces1:hover .back,
+	.proces2:hover .back,
+	.proces3:hover .back{
+		transform: rotateY(360deg);
+	}
+	.front h2{
+		font-size: 20px;
+		padding: 15px 0;
+		color: #fff;
+	}
+	.back h3{
+		padding: 5px 0;
+		line-height: 160px;
+	}
+	.de_contents{
+		outline: solid 1px #102437;		
+		margin-top: 70px;
+	}
+	.contents_box{		
+		width: 30%;		
+		margin: 10px 15px;
+	}
+	.perspective{
+		width: 100px;
+		margin: 10px;
+	}
+	.perspect_box{
+		margin-bottom: 40px;
+	}
+	.contents_box2,.contents_box3{
+		width: 1150px;
+	}
+	.contents_photo2{
+		width: 100%;
+	}
+	.contents_txt h3{
+		font-size: 22px;
+		position: absolute;
+		left: 10%;
+    	top: 0%;
+    	border-bottom: solid 1px;
+    	padding-bottom: 7px;
+	}	
+	.contents_box:hover .contents_txt h3{
+		padding-right: 20px;
+		font-weight: 600;
+		border-bottom: solid;
+	}
+	.de_choice,.se_choice{
+		width: 170px;
+		height: 50px;
+		margin: 10px;
+	}
+	.thanks{		
+		width: 550px;
+	}
+	.form {
+    	width: 550px;
+	}
+	.email{
+		width: 450px;
+	}
+	.portfolio_contents{
+		width: 100%;
+	}
+	.portfolio_box{		
+		width: 30%;
+		position: relative;
+		margin: 20px 5px;
+	}
+	.portfo_hover img{
+		width: 20%;
+		position: absolute;
+		top: 0;
+		bottom: 20%;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.portfo_txt img{
+		width: 60px;
+		height: 60px;
+		padding: 5px 0px;
+	}
+	.portfo_txt h3,.portfo_txt h4{
+		padding: 5px 0px;
+	}
+}
+
+/* 螢幕尺寸: 1200px 以上。 */
+@media screen and (min-width: 1200px){
+	.bn{
+		padding-bottom: 40%;
+		margin-top: 100px; 		
+	}
+	.bn_text{		
+		top: 30%;
+		left: 40%;		
+		box-shadow: 30px 30px 0px #102437;
+	}
+	.bn_text .textshose{
+		display: block;	
+		max-width: 450px;		
+		position: absolute;	
+		right: -13%;
+		bottom: -14%;
+	}	
+	.bn_text h1{			
+		font-size: 22px;				
+	}
+	.design,.portfolio_title{
+		width: 1200px;
+		padding-top: 100px;
+	}
+	.de_process i{
+		padding: 20px;
+		font-size: 70px;
+		display: block;
+		color: #fff;
+	}
+	.de_title h1:before,
+	.portfolio_title h1:before{
+		content: url('images/li_logo.png');
+	    position: absolute;
+	    top: -15%;
+	    left: 54%;
+	    animation: rotateball 1s infinite alternate;
+	}
+	.de_contents{
+		outline: solid 1px #888;		
+		margin-top: 50px;
+	}
+	.contents_box{		
+		width: 25%;
+	}
+	.perspective{
+		width: 100px;
+		margin: 10px 25px;
+	}
+	.perspect_box{
+		margin-bottom: 35px;
+	}
+	.contents_photo2{
+		width: 750px;
+		height: 750px;    	
+	}
+	.portfolio_contents{
+		width: 1200px;
+	}
+	.portfolio_box{	
+	    margin: 20px 30px;	
+		width: 25%;
+		height: 390px;		
+		position: relative;	
+	}
+	.portfo_hover{
+		width: 100%;
+		height: 300px;		
+		background-color: rgba(53,44,42,.6);	
+		position: absolute;
+		top: 0;
+	}
+	.portfo_hover img{
+		width: 20%;
+		line-height: 350px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.portfo_txt{
+		position: absolute;
+    	bottom: 0;
+	}
+	.portfo_txt img{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 70px;
+		height: 70px;
+		padding: 10px 30px;
+	}
+	.portfo_txt h3{
+		position: absolute;
+		bottom: 50px;
+		left: 130px;
+		padding: 0px;
+	}
+	.portfo_txt h4{
+		position: absolute;
+		bottom: 20px;
+		left: 130px;
+		padding: 0px;
+	}
+}
